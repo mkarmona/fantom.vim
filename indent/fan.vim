@@ -15,7 +15,8 @@ setlocal indentexpr=FanIndent(v:lnum)
 setlocal indentkeys+=<:>,0=},0=)
 setlocal tabstop=2
 setlocal shiftwidth=2
-setlocal expandtab=2
+setlocal expandtab
+setlocal softtabstop=2
 
 if exists("*FanIndent")
   finish
